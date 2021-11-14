@@ -1,0 +1,69 @@
+body {
+    background-color: #EBD0FD;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #7EFF5F;
+    padding: 10px;
+    margin: 20px;
+}
+/* makes text smaller for text below name */
+.subheader {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+main {
+    margin: 20px 150px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+p, ul, ol {
+    margin: 20px;
+    line-height: 25px;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color: #F70B95;
+}
+
+footer {
+    background-color: #7EFF5F;
+    text-align: center;
+    padding: 20px;
+}
+
+/* link decoration */
+a:hover {
+    color: #5BEE25;
+}
+
+a:visited {
+    color: #F88008;
+}
+
+a:visited:hover {
+    color: #5BEE25;
+}
